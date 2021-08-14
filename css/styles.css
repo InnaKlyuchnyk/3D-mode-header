@@ -1,0 +1,39 @@
+.list {
+  list-style: none;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  width: 320px;
+  margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15pxs;
+}
+
+.header__burger-icon {
+  margin-left: 23px;
+  margin-right: 46px;
+}
+
+.header__phone-icon {
+  margin-right: 21px;
+}
+
+.header__select {
+  border: none;
+}
+
+.header__phones {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .header-container {
+    width: 768px;
+  }
+
+  .header__phones {
+    display: block;
+  }
+}

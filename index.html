@@ -10,11 +10,11 @@
         integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link rel="stylesheet" href="./css/main.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
-    <header class="container">
+    <header class="header">
         <div class="header-container">
             <a href="./index.html" class="logo-header">
                 <picture>
@@ -33,12 +33,30 @@
                 <use href="./images/icons.svg#icon-phone"></use>
             </svg>
 
-            <label for="lang"></label>
-            <select id="lang" name="lang">
+            <label for="lang" class=""></label>
+            <select id="lang" name="lang" class="header__select">
                 <option value="UA">UA</option>
                 <option value="RU">RU</option>
                 <option value="ENG" selected>ENG</option>
             </select>
+            <ul class="list header__phones">
+                <li>
+                    <a href="tel:+380936432288" class="">
+                        <!-- <svg class="icon icon-tel" width="10" height="16">
+                            <use href="./images/icons.svg#icon-smartphone"></use>
+                        </svg> -->
+                        +38 (093) 643 22 88
+                    </a>
+
+                    <a href="tel:+380503454423" class="">
+                        <!-- <svg class="icon icon-tel" width="10" height="16">
+                                                <use href="./images/icons.svg#icon-smartphone"></use>
+                                            </svg> -->
+                        +38 (050) 345 44 23
+                    </a>
+                </li>
+                <li></li>
+            </ul>
         </div>
 
     </header>
