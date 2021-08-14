@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D mode</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./css/main.min.css">
+</head>
+
+<body>
+    <header class="container">
+        <div class="header-container">
+            <a href="./index.html" class="logo-header">
+                <picture>
+                    <source media="(min-width: 320px)" srcset="./images/logo.jpg 1x, ./images/logo@2x.jpg 2x">
+                    <source media="(min-width: 320px)" srcset="./images/logo.webp 1x, ./images/logo@2x.webp 2x"
+                        type="image/webp">
+                    <img src="./images/logo.jpg" alt="Логотип">
+                </picture>
+            </a>
+
+            <svg class="header__burger-icon" width="32" height="32">
+                <use href="./images/icons.svg#icon-burger-menu"></use>
+            </svg>
+
+            <svg class="header__phone-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-phone"></use>
+            </svg>
+
+            <label for="lang"></label>
+            <select id="lang" name="lang">
+                <option value="UA">UA</option>
+                <option value="RU">RU</option>
+                <option value="ENG" selected>ENG</option>
+            </select>
+        </div>
+
+    </header>
+</body>
+
+</html>
